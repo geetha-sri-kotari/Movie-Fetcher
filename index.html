@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Details fetcher</title>
+    <link href="style1.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-content-wrapper">
+      <h1 class="welcome-heading">Welcome Cinephile !</h1>
+      <div class="container">
+        <form>
+          <div class="get-movie-name">
+            <p id="enter-movie-name">Enter Movie Name</p>
+            <input type="text" id="userInput">
+            <button class="enter-btn">Enter</button>
+          </div>
+          <div class="select-movie">
+            <p class="select-movie-title">Select Movie Title</p>
+            <select class="user-selected-movie-name" >
+              <option value="" disabled selected>Select a Movie</option>
+            </select>
+          </div>
+          <button class="btn">Get Details of The Movie</button>
+        </form>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
